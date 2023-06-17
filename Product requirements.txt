@@ -1,0 +1,58 @@
+
+Product requirement document.
+
+Product's Capabilities
+LockedMe.com is a file management application that provides the following capabilities to users:
+1. File Operations:
+   Users can perform various file operations, including adding, deleting and searching
+2. File Listing:
+   The application can display the list of files in ascending order.
+3. Navigation:
+   Users can navigate between different menus and close the current execution context to return to the main context.
+4. Graceful Exit:
+   Users can close the application gracefully.
+
+
+
+Additional functionality (will be added if basic functionalities are completed)
+
+1. User registeration and authentication.
+   Users can register a new account by providing a unique username and password.
+   Registered users can log in to the application using their credentials.
+2. User credentials and file information can be serialized and saved for persistent storage.
+3. File Editing 
+   Users can edit the content of existing files.
+
+
+Java concepts used in project.
+1. Object-Oriented Programming: The application is structured using classes and objects to encapsulate behavior and data.
+2. File I/O: Files are created, read, and modified using file input/output operations.
+3. Collections: The user credentials are stored in a map (HashMap) to provide efficient retrieval and validation of usernames and passwords.
+4. Conditional statements (if-else) and loops (while, for) are used to control the flow of execution based on user input and file operations.
+5. Exception Handling: Exceptions such as IOException and ClassNotFoundException are handled to provide error messages and handle exceptional cases.
+6. Scanner class: is used to obtain user input from the console.
+7. Serialization: User credentials are serialized and stored in a file for persistent storage.
+
+
+User Interactions:
+a. Registration/Login Menu:
+   Users can choose to register as a new user or login to an existing account.
+b. Main Menu:
+   After successful authentication, users are presented with a main menu.
+   The main menu displays the user's name and provides options to display files, perform file operations, or logout.
+c. File Operations Menu:
+   Users can choose to add a file, delete a file, search for a file, edit a file, or go back to the main menu.
+
+Programme Flow chart:
+1. The application starts by displaying the application header and loading user credentials.
+2. The registration or login menu is displayed, and the user is prompted to choose an option.
+3. Depending on the chosen option, the user can register as a new user, authenticate with their credentials, or exit the application.
+4. If the user chooses to register, they are prompted to enter a username and password. The registration is successful if the username is unique.
+5. If the user chooses to authenticate, they are prompted to enter their username and password. If the credentials match, the user is logged in.
+6. After successful authentication, the main menu is displayed, showing the available options.
+7. The user can choose to display files in ascending order, perform file operations, or log out.
+8. If the user selects the option to display files, the files in the specified directory are listed in ascending order.
+9. If the user selects the option to perform file operations, a submenu is displayed with options to add a file, delete a file, search for a file,    edit a file, or go back to the main menu.
+10. Based on the selected option, the corresponding file operation is performed.
+11. If the user chooses to log out, they are returned to the registration or login menu.
+12. The user credentials are saved to a file before exiting the application

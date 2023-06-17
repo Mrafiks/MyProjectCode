@@ -1,0 +1,25 @@
+
+The project will be completed in 3 sprints lasting 1 week each
+
+Sprint 1: Specification Document and Initial Setup
+Task 1: Prepare the Specification document with the following details:
+  - Product's capabilities and user interactions.
+  - General flow of the code.
+  - Specification of Java concepts to be used in the project.
+Task 2: Set up Git and GitHub account to store and track enhancements of the prototype.
+
+
+Sprint 2: Basic Feature Implementation
+Task 1: Implement file addition functionality, allowing users to add new files to the application.
+Task 2: Implement file deletion functionality, enabling users to remove files from the application.
+Task 3: Implement file search functionality, allowing users to search for specific files.
+Task 4: Display files in ascending order.
+Task 5: Implement user registration functionality, allowing users to create new accounts.
+Task 6: Implement user authentication functionality, enabling users to log in using their registered credentials.
+
+Sprint 3: Refinement and Additional Features
+
+Task 1: Perform debugging and error handling to improve the stability of the application.
+Task 2: Implement file editing functionality, enabling users to modify the content of existing files.
+Task 3: Add a navigation option to close the current execution context and return to the main context.
+Task 4: Implement any additional features or improvements based on user feedback or project requirements.
